@@ -1,0 +1,29 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+:root {
+    --background: #1d4353;
+    --background-main: #d8e6e6;
+}
+
+html {
+    background: var(--background);
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+}
+
+.main {
+    margin: auto;
+    width: 80%;
+    height: 800px;
+    background: var(--background-main);
+    margin-top: 10px;
+}
+
+.img {
+    width: 9rem;
+    height: 9rem;
+}
